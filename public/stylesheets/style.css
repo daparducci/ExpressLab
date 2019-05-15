@@ -1,12 +1,19 @@
 body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+
 }
 
 a {
+  display: flex;
   color: #00B7FF;
-  
-}
+  padding: 0;
+  width: 20vw;
+  }
 
 .delete-form {
   /* display: flex;
@@ -19,15 +26,26 @@ a {
   color: red;
 }
 
-li {
-  list-style: none;
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
 }
 
-.wrapper {
+li {
+  margin: 0;
+  list-style: none;
+  
+} 
+
+
+/* .wrapper {
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
   justify-items: center;
-}
+} */
 
